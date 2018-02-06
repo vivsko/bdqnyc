@@ -1,0 +1,130 @@
+#img_1{
+    width: 1420px;
+    height: 80px;
+    position: relative;
+}
+#JQ1{
+    position: absolute;
+    top: 12px;
+    right: 265px;
+}
+#erweima{
+    position: absolute;
+    top:-20px;
+    right: -100px;
+    display: none;
+}
+header{
+    position: relative;
+    z-index: 1;
+}
+#logo_right ul{
+    position: relative;
+}
+#logo_right a{
+    text-decoration: none;
+    color: black;
+}
+#hot_course{
+    width: 100px;
+    display: none;
+    background-color: white;
+    right:45.8%;
+    position: absolute;
+    border: 1px #d7d7d7 solid;
+    border-radius: 5px;
+}
+#hot_course ul{
+    margin-left: -90px;
+}
+#hot_course ul li{
+    width:100px;
+    text-align: center;
+    margin-top:5px;
+    border-bottom: 1px #d7d7d7 solid;
+}
+#xuexiaojianjie{
+    width: 80px;
+    right:54.6%;
+    display: none;
+    background-color: white;
+    position: absolute;
+    border: 1px #d7d7d7 solid;
+    border-radius: 5px;
+}
+#xuexiaojianjie ul{
+    margin-left: -90px;
+}
+#xuexiaojianjie ul li{
+    width: 80px;
+    margin-top: 5px;
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px #d7d7d7 solid;
+}
+#hot_course ul li{
+    width:100px;
+    text-align: center;
+    margin-top:5px;
+    border-bottom: 1px #d7d7d7 solid;
+}
+#zhaosheng{
+    width: 90px;
+    right:22.2%;
+    display: none;
+    background-color: white;
+    border: 1px #d7d7d7 solid;
+    border-radius: 5px;
+    position: absolute;
+}
+#zhaosheng ul{
+    margin-left: -90px;
+}
+
+#zhaosheng ul li{
+    width: 90px;
+    margin-top: 5px;
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px #d7d7d7 solid;
+}
+#job_serice{
+    width: 80px;
+    right: 38.55%;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px #d7d7d7 solid;
+    border-radius: 5px;
+}
+#job_serice ul{
+    margin-left: -90px;
+}
+#job_serice ul li{
+    width: 80px;
+    margin-top: 5px;
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px #d7d7d7 solid;
+}
+#shouye:first-of-type{
+    color: #ff4900;
+}
+
+#logo_right{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+#img_2 img{
+    float: left;
+    margin:-20px 90px;
+    margin-right: 20px;
+}
+#logo_right li{
+    float: left;
+    list-style: none;
+    margin-left: 50px;
+    font-family: "Arial", "微软雅黑";
+    font-size: 16px;
+    color: #000000;
+}

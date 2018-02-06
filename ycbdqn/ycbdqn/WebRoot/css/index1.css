@@ -1,0 +1,370 @@
+#select_ALL{
+    width: 1420px;
+    margin: 0px auto;
+}
+iframe{
+    margin-left: -8px;
+}
+section{
+   position: relative;
+    bottom: 190px;
+    z-index: -1;
+}
+footer{
+    margin-top: -190px;
+}
+#main_picture img{
+    margin-top: 30px;
+}
+#course_part{
+    background-color: #f1f1f1;
+    margin-top: 0px;
+    overflow: hidden;
+    width: 1420px;
+    padding-bottom: 40px;
+}
+#hot_class img{
+    margin: 25px 100px;
+}
+#hot_classify img{
+    margin-left: -3px;
+}
+#hot_classify{
+    font-family: "Arial", "微软雅黑";
+    color: white;
+    height: 300px;
+    width: 1220px;
+    margin: 0px auto;
+}
+
+#hot_classify dt{
+    font-size: 22px;
+    text-align: center;
+    margin-right: -13px;
+    padding-bottom: 20px;
+
+}
+#hot_classify .second_dd{
+    font-size: 15px;
+    text-align: center;
+    border: 1px white solid;
+    padding: 5px;
+    border-radius:5px;
+    width: 90px;
+    margin-top: 10px;
+
+}
+#hot_classify .third_dd{
+    font-size: 13px;
+    padding-top: 5px;
+}
+#hot_classify dl{
+    margin-left: -15px;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+#hot_classify div{
+    float: left;
+    margin-left:10px;
+}
+.hot_one{
+    background-color: #ec6941;
+    border-radius: 10px;
+    width: 190px;
+    padding: 0px;
+}
+.hot_one .third_dd{
+    margin-left: 32px;
+}
+.hot_two{
+    background-color:#80c269;
+    border-radius: 10px;
+    width: 190px;
+    padding: 0px;
+
+}
+.hot_two .third_dd{
+    margin-left: 32px;
+}
+.hot_three{
+    background-color: #00b7ee;
+    border-radius: 10px;
+    width: 190px;
+    padding: 0px;
+
+}
+.hot_four{
+    background-color: #eb6877;
+    border-radius: 10px;
+    width: 190px;
+    padding: 0px;
+}
+.hot_four dl{
+    margin-top: 19px;
+}
+.hot_four .third_dd{
+    margin-left: 30px;
+}
+
+.hot_five{
+    background-color: #bba44a;
+    border-radius: 10px;
+    width: 190px;
+    padding: 0px;
+
+}
+.hot_six{
+    background-color: #005fee;
+    border-radius: 10px;
+    width: 190px;
+    padding: 0px;
+
+}
+.hot_six .third_dd{
+    margin-left: 45px;
+}
+
+#for_crowd img{
+    margin: 25px 100px;
+}
+#crowd_classify{
+    width: 1220px;
+    height: 300px;
+    margin: 0px auto;
+}
+
+#crowd_classify ul{
+    width: 180px;
+    list-style: none;
+    float: left;
+    margin-left: -35px;
+    margin-right: 17px;
+    color: #747474;
+    font-weight: bold;
+   font-family: "Arial", "微软雅黑";
+}
+#modify_1{
+    margin-top: -13px;
+}
+#modify_2{
+    margin-top: 18px;
+}
+#crowd_classify ul li:last-child{
+    padding-top: 20px;
+    text-align:center;
+}
+#crowd_classify ul li:last-child span{
+    border: 1px orange solid;
+    border-radius: 3px;
+    padding: 2px;
+}
+#campus_part{
+    clear: left;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    width: 1420px;
+    padding-bottom: 40px;
+}
+#campus_information img{
+    margin: 25px 100px;
+}
+#campus_part_up{
+    width: 1220px;
+    height: 150px;
+     margin: 0px auto;
+
+}
+#campus_part_up ul{
+    width: 480px;
+    float: left;
+    margin-left: -40px;
+    margin-right: -74px;
+}
+#campus_part_up ul li{
+    width: 180px;
+    list-style: none;
+    float: left;
+}
+#campus_part_up ul li:nth-of-type(2){
+    margin-top: -10px;
+    padding-left: 15px;
+}
+#campus_part_up ul li:nth-of-type(2) p:nth-of-type(1){
+    font-size: 14px;
+    color: #000000;
+}
+#campus_part_up ul li:nth-of-type(2) p:nth-of-type(2){
+    line-height: 23px;
+    font-size: 12px;
+    color: #b8b8b8;
+}
+#campus_part_down{
+    margin-left: -40px;
+}
+#campus_part_down ul li{
+    width: 350px;
+    list-style: none;
+    float: left;
+    margin-left: 100px;
+    margin-right:-45px ;
+}
+#campus_part_down ul li p:nth-of-type(1){
+    font-size: 14px;
+    color: #000000;
+}
+#campus_part_down ul li p:nth-of-type(2){
+    line-height: 23px;
+    font-size: 12px;
+    color: #b8b8b8;
+}
+#employment_details{
+    width: 1220px;
+    height: 300px;
+    margin: 0px auto;
+}
+#employment_star img{
+    margin: 25px 100px;
+    margin-bottom: 50px;
+}
+#employment_details ul{
+    margin-top: -15px;
+    list-style: none;
+    width: 600px;
+    float: left;
+    margin-left: -40px;
+    margin-right: 10px;
+}
+#employment_details ul li{
+    width: 220px;
+    float: left;
+}
+
+#employment_details ul li:nth-of-type(2){
+    margin-top: 40px;
+    margin-left: 100px;
+}
+#employment_details ul li:nth-of-type(2) p{
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
+    margin-top: -10px;
+}
+#goldmedal_teacher{
+    clear: left;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    width: 1420px;
+}
+
+#teacher_team{
+    width: 1000px;
+    z-index: 0;
+    background-color: #11a3d3;
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    height: 220px;
+}
+#teacher_part{
+    position: relative;
+}
+#teacher_team_word{
+    text-align: center;
+    position: absolute;
+    left:200px;
+    bottom: 50px;
+    width: 1000px;
+}
+#teacher_team_word p:first-child{
+    margin-bottom: 5px;
+    font-size: 88px;
+    font-family: "Arial", "微软雅黑";
+    color: #ffffff;
+}
+#teacher_team_word p:first-child span{
+    color: #fedd01;
+}
+#teacher_team_word p:last-child{
+    margin-top: 5px;
+    font-size: 63px;
+    font-family: 宋体;
+    color: #ffffff;
+}
+#environment_part{
+    width: 1420px;
+    position: relative;
+
+}
+
+#float_right{
+    clear:left;
+    float: right;
+    position: absolute;
+    right: 100px;
+    top: 60px;
+
+}
+#tabs li{
+    width: 15px;
+    height: 15px;
+    list-style: none;
+    float: left;
+    border: 1px solid gray;
+    border-radius:50px;
+    margin-left: 5px;
+}
+
+#campus_environment img{
+    margin: 25px 100px;
+}
+
+#campus_environment_roll_img{
+  width: 1220px;
+    margin: 0px auto;
+}
+#campus_environment_roll_img img{
+    float: left;
+}
+#campus_environment_roll_img img:nth-of-type(2){
+    margin: 0px 10px;
+}
+section:nth-of-type(2){
+    z-index: 0;
+   height: 400px;
+}
+#school_life_part{
+    clear: left;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    width: 1420px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+#school_life{
+    margin-bottom: -20px;
+ }
+#school_life img{
+    margin: 25px 100px;
+}
+#school_life_pic{
+    width: 1420px;
+    height: 500px;
+  margin: 0px auto;
+}
+#school_life_pic ul li{
+    width: 402px;
+    list-style: none;
+    float: left;
+    margin-left: 62px;
+    margin-right: -55px;
+    padding-top: 20px;
+}
+#joint_venture img{
+    margin: 25px 100px;
+}
+#joint_venture_all img{
+    margin-left: 100px;
+}

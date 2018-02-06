@@ -1,0 +1,661 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    width:100%;
+    /*border: 1px solid red;*/
+    margin: auto;
+    /*height: 8000px;*/
+}
+
+.web{
+    width: 1420px;
+    /*border: 1px solid red;*/
+    margin: auto;
+    /*height: 8000px;*/
+}
+
+
+.web1{
+    text-align: center;
+}
+.web1 p:nth-of-type(1){
+    font: bold 53px "微软雅黑";
+    color: #000000;
+
+    margin-top: 120px;
+    line-height: 0px;
+}
+.web1 p:nth-of-type(1) span{
+    color: #fe0000;
+}
+.web1 p:nth-of-type(2){
+    font: 16px "微软雅黑";
+    color: #000000;
+    margin-bottom: 100px;
+    margin-top: 68px;
+}
+
+.web2 ul li{
+    width:263px;
+    height: 450px;
+    /*border: 1px solid red;*/
+    list-style-type: none;
+    float: left;
+    padding-left: 55px;
+    position: relative;
+}
+
+.web2 ul li:nth-of-type(1) p:nth-of-type(1){
+    font:900 30px "微软雅黑";
+    color: #323131;
+    position: absolute;
+    left: 135px;
+    top:150px;
+    letter-spacing: 5px;
+}
+.web2 ul li:nth-of-type(1) p:nth-of-type(2){
+    font: 11px"微软雅黑";
+    color: #807a7a;
+    position: absolute;
+    left: 110px;
+    top:210px;
+}
+
+.web2 ul li p:nth-of-type(1){
+    font:900 30px "微软雅黑";
+    color: #ffffff;
+    position: absolute;
+    left: 135px;
+    top:150px;
+    letter-spacing: 5px;
+}
+.web2 ul li p:nth-of-type(2){
+    font: 11px"微软雅黑";
+    color: #ffffff;
+    position: absolute;
+    left: 110px;
+    top:210px;
+}
+.web2{
+    position: relative;
+    /*border: 1px solid blue;*/
+    height: 560px;
+}
+.web2 ul{
+    margin-left: 45px;
+    padding: 0px;
+
+}
+
+.web2 ul li:nth-of-type(1) div{
+    background-image: url("../images/course_WEB_06.png");
+    background-repeat: no-repeat;
+    width:263px;
+    height:340px;
+
+}
+
+.web2 ul li:nth-of-type(2) div{
+    background-image: url("../images/course_WEB_08.png");
+    background-repeat: no-repeat;
+    width:263px;
+    height:340px;
+
+}
+
+.web2 ul li:nth-of-type(3) div{
+    background-image: url("../images/course_WEB_10.png");
+    background-repeat: no-repeat;
+    width:263px;
+    height:340px;
+
+}
+.web2 ul li:nth-of-type(4) div{
+    background-image: url("../images/course_WEB_12.png");
+    background-repeat: no-repeat;
+    width:263px;
+    height:340px;
+
+}
+ .web2_p1{
+     font: 14px"微软雅黑";
+     color: #444242;
+     line-height: 30px;
+ }
+.web2_p{
+    font: 14px"微软雅黑";
+    color: #444242;
+    display: inline-block;
+    /*border: solid black;*/
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+
+
+
+.web3{
+    /*background-color: #4f4d4e;*/
+    border: 1px solid green;
+    height: 800px;
+
+    background-image: url("../images/web_1.jpg");
+    background-repeat: no-repeat;
+    /*background-position: 290px 100px;*/
+    /*background-image: url("../images/course_WEB_27.png");*/
+    /*background-repeat: no-repeat;*/
+    position: relative;
+}
+
+.web3 p:nth-of-type(1){
+  position: absolute;
+    left: 295px;
+    top:40px;
+}
+.web3 p:nth-of-type(2){
+    position: absolute;
+    left: 540px;
+    /*border: solid red;*/
+    width: 665px;
+    height: 120px;
+    top:40px;
+
+
+}
+.web3 p:nth-of-type(4){
+    position: absolute;
+    left: 1135px;
+    top:140px;
+}
+.web3 p:nth-of-type(3){
+    position: absolute;
+    left: 650px;
+    top:140px;
+    font: 22px"微软雅黑";
+    color: #CFD0D3;
+    /*border: solid red;*/
+}
+
+.web3 ul{
+    /*border: solid blue;*/
+    height: 420px;
+    width: 1200px;
+    padding-top: 260px;
+    margin: auto;
+
+}
+
+.web3 ul li{
+    /*border: solid red;*/
+    width: 185px;
+    height: 200px;
+    float: left;
+    margin-left: 100px;
+    list-style-type: none;
+}
+
+.web3 ul li span:hover{
+
+    color: #fb0101;
+
+}
+
+.web3 ul li span{
+    font: 24px"微软雅黑";
+    color: #ffffff;
+    margin-left: -10px;
+}
+.web3 ul li:nth-of-type(1) span,.web3 ul li:nth-of-type(2) span{
+    font: 24px"微软雅黑";
+    color: #ffffff;
+    margin-left: 0px;
+}
+.web3 ul li:nth-of-type(1) span:hover,.web3 ul li:nth-of-type(2) span:hover{
+    color: #fb0101;
+}
+
+.web4{
+    position: relative;
+    background-image: url("../images/course_WEB_58.png");
+    background-repeat: no-repeat;
+    /*border: solid red;*/
+    height: 783px;
+}
+.web4 p:nth-of-type(1){
+    position: absolute;
+    left: 375px;
+   top: 380px;
+}
+.web4 p:nth-of-type(2){
+    position: absolute;
+    left: 350px;
+    top: 330px;
+    opacity: 0.1;
+}
+.web4 p:nth-of-type(3){
+    position: absolute;
+    font:43px"微软雅黑";
+    color: #f32900;
+    left: 720px;
+    top: 480px;
+
+}
+
+
+.web5{
+    background-color: #00cccb;
+    overflow: hidden;
+    width: 1420px;
+}
+
+.web5 p:nth-of-type(1){
+    font:bold 79px"微软雅黑";
+    color: #ffffff;
+    text-align: center;
+    line-height: 0px;
+}
+.web5 p:nth-of-type(2){
+    font:36px"微软雅黑";
+    color: #ffffff;
+    text-align: center;
+}
+
+.web6{
+    background-image: url("../images/course_WEB_60.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    /*border:1px solid red;*/
+    width: 1420px;
+    height: 760px;
+    overflow: hidden;
+
+}
+
+#web6{
+    border-top:1px solid #ffffff;
+    width: 650px;
+    margin-left: 80px;
+    /*overflow: hidden;*/
+}
+
+.web6 h1{
+    font:45px"微软雅黑";
+    color: #ffffff;
+    margin-left:80px ;
+    margin-bottom: 0px;
+}
+
+.web6 h3{
+    font:25px"微软雅黑";
+    color: #fbd502;
+    line-height: 10px;
+}
+.web6 p{
+    font:15px"微软雅黑";
+    color: #ffffff;
+    line-height: 20px;
+}
+
+.web7{
+    background-image: url("../images/course_WEB_62.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    /*border:1px solid #00cccb;*/
+    width: 1420px;
+    height: 765px;
+    overflow: hidden;
+
+}
+
+.web7 h1{
+    font:45px"微软雅黑";
+    color: #ffffff;
+    margin-left:1040px ;
+    margin-bottom: 0px;
+}
+
+#web7{
+    border-top:1px solid #ffffff;
+    width: 650px;
+    margin-left: 680px;
+    /*overflow: hidden;*/
+}
+
+#web7 h4{
+    font:25px"微软雅黑";
+    color: #fbd502;
+    /*border:1px solid black;*/
+    margin-left: 540px;
+}
+
+.web7 p:nth-of-type(1){
+    font:15px"微软雅黑";
+    color: #ffffff;
+    line-height: 20px;
+    margin-left: 380px;
+}
+
+.web7 p:nth-of-type(2){
+    font:15px"微软雅黑";
+    color: #ffffff;
+    line-height: 20px;
+    margin-left: 344px;
+}
+.web7 p:nth-of-type(3){
+    font:15px"微软雅黑";
+    color: #ffffff;
+    line-height: 20px;
+    margin-left: 305px;
+}
+
+.web7 p{
+    font:15px"微软雅黑";
+    color: #ffffff;
+    line-height: 30px;
+}
+
+
+.web8{
+    background-image: url("../images/course_WEB_63.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    /*border:1px solid red;*/
+    width: 1420px;
+    height: 745px;
+    overflow: hidden;
+
+}
+
+.web8 h1{
+    font:45px"微软雅黑";
+    color: #ffffff;
+    margin-left:80px ;
+    margin-bottom: 0px;
+}
+
+#web8{
+    border-top:1px solid #ffffff;
+    width: 650px;
+    margin-left: 80px;
+    /*overflow: hidden;*/
+}
+
+#web8 h4{
+    font:25px"微软雅黑";
+    color: #fbd502;
+    /*border:1px solid black;*/
+    /*margin-left: 40px;*/
+}
+
+
+.web8 p{
+    font:15px"微软雅黑";
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.web9{
+    background-image: url("../images/course_WEB_64.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    /*border:1px solid red;*/
+    width: 1420px;
+    height: 555px;
+    overflow: hidden;
+}
+.web9 p:nth-of-type(1){
+    font:bold 47px"微软雅黑";
+    color:#FFFFFF;
+    text-align: center;
+    margin-top: 220px;
+    line-height: 0px;
+    /*border: solid red;*/
+    margin-bottom: 20px;
+    margin-left: -343px;
+}
+.web9 p span{
+    font:bold 47px"微软雅黑";
+    color:#fb0101;
+
+}
+.web9 p:nth-of-type(2){
+    font: 18px"微软雅黑";
+    color:#FFFFFF;
+    text-align: center;
+    line-height: 0px;
+    /*border: solid red;*/
+    height: 20px;
+    margin-left: -358px;
+}
+
+.web10{
+    text-align: center;
+    /*border: solid red;*/
+
+}
+.web10 p{
+    font:bold 50px"微软雅黑";
+    color: red;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*后*/
+
+#hot_classify{
+    font-family: "Arial", "微软雅黑";
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    /*border: 1px solid blue;*/
+    height: 300px;
+    padding-left: 80px;
+
+}
+
+#hot_classify dt{
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+#hot_classify .second_dd{
+    font-size: 15px;
+    text-align: center;
+    border: 1px white solid;
+    padding: 5px;
+    border-radius:5px;
+    width: 90px;
+    margin-top: 10px;
+
+}
+#hot_classify .third_dd{
+    font-size: 13px;
+    padding-top: 5px;
+}
+#hot_classify dl{
+    margin-left: -13px;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.hot_one{
+    background-color: #ec6941;
+    border-radius: 10px;
+    width: 193px;
+    padding: 0px;
+    margin-left: 40px;
+
+    /*border: 1px solid blue;*/
+}
+
+.hot_one .third_dd{
+    margin-left: 32px;
+}
+.hot_two{
+    background-color:#80c269;
+    border-radius: 10px;
+    width: 193px;
+    padding: 0px;
+    margin-left: 40px;
+}
+.hot_two .third_dd{
+    margin-left: 32px;
+}
+.hot_three{
+    background-color: #00b7ee;
+    border-radius: 10px;
+    width: 193px;
+    padding: 0px;
+    margin-left: 40px;
+}
+.hot_four{
+    background-color: #eb6877;
+    border-radius: 10px;
+    width: 193px;
+    padding: 0px;
+    margin-left: 40px;
+}
+.hot_four .third_dd{
+    margin-left: 30px;
+}
+.hot_five{
+    background-color: #bba44a;
+    border-radius: 10px;
+    width: 193px;
+    padding: 0px;
+    margin-left: 40px;
+}
+.hot_six{
+    background-color: #005fee;
+    border-radius: 10px;
+    width: 193px;
+
+    padding: 0px;
+    margin-left: 40px;
+}
+.hot_six .third_dd{
+    margin-left: 45px;
+}
+#hot_classify div{
+    float: left;
+    margin-left:15px;
+}
+
+
+
+/*header*/
+
+
+header{
+    position: relative;
+    /*border: 1px solid red;*/
+    height: 160px;
+
+}
+#logo_right ul{
+    position: relative;
+}
+#hot_course{
+    width: 100px;
+    right: 580px;
+    top:160px;
+    display: none;
+    background-color: white;
+    position: absolute;
+    border: 1px gray dashed;
+    border-radius: 5px;
+}
+#hot_course ul{
+    margin-left: -90px;
+}
+#hot_course ul li{
+    width:100px;
+    text-align: center;
+    margin-top:10px;
+    border-bottom: 1px gray solid;
+}
+#zhaosheng{
+    width: 90px;
+    right: 245px;
+    top:160px;
+    display: none;
+    background-color: white;
+    border: 1px gray dashed;
+    border-radius: 5px;
+    position: absolute;
+}
+#zhaosheng ul{
+    margin-left: -85px;
+}
+
+#zhaosheng ul li{
+    width: 80px;
+    margin-top: 10px;
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px gray solid;
+}
+#job_serice{
+    width: 80px;
+    right: 475px;
+    top:160px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px gray dashed;
+    border-radius: 5px;
+
+}
+#job_serice ul{
+    margin-left: -80px;
+}
+#job_serice ul li{
+    margin-top: 10px;
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px gray solid;
+}
+/*#shouye:first-of-type{*/
+    /*color: #ff4900;*/
+/*}*/
+
+#logo_right{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+#img_2 img{
+    float: left;
+    margin:-20px 90px;
+    margin-right: 20px;
+}
+#logo_right li{
+    float: left;
+    list-style: none;
+    margin-left: 50px;
+    font-family: "Arial", "微软雅黑";
+    font-size: 16px;
+    color: #000000;
+}
+
+
+header a{
+    text-decoration: none;
+    color:black;
+}
+iframe{
+    width: 1470px;
+    margin-left: -8px;
+    border: 0px;
+}
+header div{
+    border: 0px;
+}
+footer iframe{
+    margin-top: 10px;
+    margin-left: -8px;
+}

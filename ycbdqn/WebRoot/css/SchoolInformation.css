@@ -1,0 +1,142 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+    /*width: 1200px;*/
+    position: relative;
+    width: 1420px;
+}
+header{
+    z-index: 1;
+}
+.commen{
+    width: 1420px;
+    position:absolute;
+    top:350px;
+    z-index: 0;
+}
+h3 a{
+    color:#000000;
+    text-decoration:none;
+}
+
+li{
+    list-style: none;
+}
+section{
+    padding-bottom: 100px;
+}
+.PartSum{
+    overflow: hidden;
+}
+.LeftPart{
+    width: 55%;
+    margin-left: 100px;
+    /*border: 1px solid red;*/
+    float: left;
+}
+
+.RightPart{
+    margin: 0px;
+    padding: 0px;
+
+    margin-right:100px;
+    /*border: 1px solid red;*/
+    float:right;
+}
+.ListOne,.ListSecond,.ListThird{
+    margin: 0px;
+    padding: 0px;
+}
+.ListOne li{
+    list-style: none;
+    width: 115%;
+    height: 200px;
+    /*border: 1px blue solid;*/
+    overflow: hidden;
+    padding: 50px 0px;
+    border-bottom: dotted 2px darkgrey;
+
+}
+.ListOne li div{
+    margin-left: 40px;
+}
+.ListOne li img{
+    float: left;
+    height: 160px;
+    width: 220px;
+}
+
+.ListOne li div{
+  float: left;
+}
+
+.ListOne li:last-child{
+    border-bottom: none;
+}
+.banner{
+    margin-left: 100px;
+}
+.ListOne li div p:nth-of-type(1){
+    color: darkgrey;
+    margin-top: 30px;
+}
+
+.editor{
+    font-size: 15px;
+    color: darkgrey;
+    padding-left: 370px;
+    margin-top: -5px;
+}
+.pThree{
+    line-height: 25px;
+    width: 630px;
+    color: #79797a;
+    margin-top: 30px;
+}
+/*---------------------------------------------*/
+.ListSecond li{
+    list-style: none;
+    padding: 20px 0px;
+}
+
+.PartTail{
+
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    color: darkgrey;
+}
+
+
+.ListThird{
+
+    display: inline-block;
+    text-align: center;
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+    bottom: -4px;
+}
+
+.ListThird li{
+    list-style: none;
+    border: 1px solid darkgrey;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+
+}
+
+.ListThird .LiFour{
+    border:0px solid black;
+}
+
+h2{
+    margin-left: 100px;
+}
+
+*{
+    font-family: "Arial", "微软雅黑";
+}

@@ -1,0 +1,127 @@
+#footer_part{
+
+    position: relative;
+}
+#young_fire_left_one{
+    width: 200px;
+    height:200px;
+    background-color: orange;
+    position: absolute;
+    left: 0px;
+    top:300px;
+}
+#young_fire_left_one_word{
+    margin-top: 40px;
+    margin-left: 10px;
+    color:#333333;
+    font-size: 22px;
+}
+#young_fire_left_two{
+    width: 400px;
+    height:200px;
+    background-color: #333333;
+    position: absolute;
+    left: 200px;
+    top:300px;
+    opacity: 0.5;
+}
+#young_fire_left_two_word{
+    position: absolute;
+    left: 250px;
+    top:300px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+ }
+#young_fire_right_part{
+    width: 350px;
+    height: 500px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    right: 160px;
+    top: 150px;
+    border-radius: 20px;
+}
+#young_fire_right{
+    position: absolute;
+    right: 120px;
+    top: 200px;
+    color: white;
+    font-size: 22px;
+    line-height: 25px;
+    opacity: 1;
+}
+#young_fire_right ul li{
+    list-style: none;
+    margin-top: 25px;
+}
+#young_fire_right ul li input{
+border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    margin-left: 60px;
+   margin-top: -25px;
+    display: block;
+   background-color: whitesmoke;
+    color: white;
+
+}
+#young_fire_right ul li:last-child input:first-child{
+    background-color: #ffae00;
+    margin-left: 30px;
+    color:white;
+}
+#young_fire_right ul li:last-child input:last-child{
+    background-color: #2352be;
+    margin-left: 50px;
+    color:white;
+}
+#young_fire_right ul li:last-child input{
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+}
+#young_fire_right ul li{
+    width: 350px;
+}
+#young_fire_right ul li:nth-of-type(1){
+    font-size: 25px;
+}
+#young_fire_right ul li:nth-of-type(2){
+    font-size: 20px;
+}
+#young_fire_right ul li:nth-of-type(2) input{
+  background-color: inherit;
+}
+#young_fire_right ul li:nth-of-type(3){
+    font-size: 20px;
+}
+#young_fire_right ul li:nth-of-type(3) input{
+    background-color: inherit;
+}
+#young_fire_right ul li:nth-of-type(4){
+    font-size: 23px;
+}
+#young_fire_right ul li:nth-of-type(4) input{
+    background-color: inherit;
+}
+#young_fire_right ul li:nth-of-type(5){
+     font-size: 15px;
+ }
+#young_fire_right ul li:nth-of-type(5) input{
+    background-color: inherit;
+}
+
+#index_bottom{
+    background-color: #333333;
+    color: white;
+    width: 1420px;
+   text-align: center;
+
+}
+#index_bottom img,#index_bottom nav,#index_bottom div{
+    display: inline-block;
+     vertical-align: middle;
+    margin-left: 120px;
+}

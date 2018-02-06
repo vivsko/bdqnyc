@@ -1,0 +1,359 @@
+body{
+    width: 1420px;
+    margin: 0px auto;
+    padding: 0px;
+    /*border: 1px red solid;*/
+    /*width: 1200px;*/
+    position: relative;
+}
+
+header{
+    z-index: 1;
+    margin: 0px auto;
+}
+
+section{
+    margin-bottom:100px ;
+}
+.commen{
+    margin: 0px auto;
+    position:absolute;
+    top:350px;
+    z-index: 0;
+}
+
+.Title{
+    text-align: center;
+
+}
+
+p{
+
+    text-align: center;
+}
+
+
+ul{
+
+    margin: 0px auto;
+    /*border: 1px  black solid;*/
+}
+
+li{
+    text-align: center;
+    margin: 0px auto;
+    /*border: 1px  blue solid;*/
+   list-style: none;
+}
+
+h2{
+    text-align: center;
+    font-size: 28px;
+    color: #096ccc;
+}
+
+.headimg{
+    margin: 0px auto;
+    /*width: 1000px;*/
+    height:450px;
+    /*border: 1px solid green;*/
+    background-image: url("../images/SchoolProfile_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.ul1{
+    overflow: hidden;
+    margin-left: 37px;
+}
+.ul1 img{
+    width: 100%;
+}
+
+.ul1 li{
+    width: 250px;
+    float: left;
+    margin-left:52px ;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.ul1 p{
+    font-family:"΢���ź�";
+    text-align: center;
+    font-size: 18px;
+    color:#2c3350;
+}
+
+.part1{
+    background-color: #FFFFD6;
+    margin: 0px auto;
+    /*border: 1px  orangered solid;*/
+    width: 1150px;
+    height:422px;
+
+}
+.part1Left,.part1Right{
+    /*border: 1px  orangered solid;*/
+    float: left;
+    width:50% ;
+    height: 100%;
+}
+/*------------------------------------------------*/
+.part1Left div{
+    /*border: 1px  orangered solid;*/
+
+    overflow: hidden;
+}
+.div1{
+    height: 50%;
+    width: 45%;
+    float: left;
+    padding-top: 20px;
+}
+
+.img1{
+    height: 50%;
+    width: 55%;
+    float: left;
+
+}
+/*----------------------------------------------------*/
+.p1{
+    font-family:"微软雅黑";
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    color:#353535;
+    margin-bottom: 50px;
+}
+.img2{
+    text-align: center;
+}
+.img2 img{
+    /*border: 1px  orangered solid;*/
+    text-align: center;
+    width:1150px;
+}
+/*----------------------------------------------------*/
+.ul2{
+    overflow: hidden;
+    width: 1235px;
+}
+.ul2 li img{
+    width: 100%;
+}
+.ul2 li{
+    width:30%;
+    float: left;
+margin-left: 20px;
+}
+/*----------------------------------------------------------*/
+.div2{
+    margin: 0px auto;
+    text-align: center;
+
+}
+.div2 img{
+    margin-left: 30px;
+}
+/*---------------------------------------------------*/
+.ul3{
+    overflow: hidden;
+    width: 1200px;
+}
+.ul3 li img{
+    width: 100%;
+}
+.ul3 li{
+    text-align: center;
+    width:22%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 16px;
+}
+/*-------------------------------------------------------*/
+.ul4{
+    padding: 0px;
+    /*border: 1px  orangered solid;*/
+    width: 1200px;
+}
+
+.ul4 li{
+    overflow: hidden;
+    /*border: 1px  green solid;*/
+    width: 1150px;;
+}
+
+
+.ul4 li img{
+    width: 100%;
+    height: 100%;
+}
+
+.div3{
+    width: 40%;
+    float: left;
+    padding-top:40px;
+}
+
+.div4{
+    padding-left: 50px;
+    width:60%;
+    float: left;
+}
+.div3 span{
+    display: block;
+    float: right;
+    color: red;
+}
+/*----------------------------------------------*/
+
+.span1{
+    color: #096ccc;
+    font-size: 22px;
+}
+.span2{
+ font-size: 28px;
+}
+.span3{
+    color: #9c0909;
+    font-size: 22px;
+}
+.span4{
+    color: #ef7b0a;
+    font-size: 22px;
+}
+.span5{
+    color: #31c204;
+    font-size: 22px;
+}
+
+/*------------------------------------------------*/
+#hot_classify{
+    font-family: "Arial", "΢���ź�";
+    color: white;
+    margin-left: 120px;
+}
+#hot_classify div{
+   height:300px ;
+}
+#hot_classify dl{
+    /*border: 1px solid black;*/
+
+
+
+}
+
+
+#hot_classify dt{
+    width: 140px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 0px;
+    /*border: 1px solid red;*/
+    /*padding-left: 20px;*/
+    margin-left: 10px;
+    padding-left: 5px;
+    margin-right:0px;
+
+}
+#hot_classify div dl dd:nth-of-type(1){
+    margin-left: 35px;
+}
+
+#hot_classify .second_dd{
+    font-size: 15px;
+    text-align: center;
+    border: 1px white solid;
+    padding: 5px;
+    border-radius:5px;
+    width: 90px;
+    margin-top: 10px;
+
+}
+#hot_classify .third_dd{
+    font-size: 13px;
+    padding-top: 5px;
+}
+#hot_classify dl{
+    margin-left: -25px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.hot_one{
+    background-color: #ec6941;
+    border-radius: 10px;
+    width: 160px;
+    padding: 0px;
+    margin-left:40px;
+}
+.hot_one .third_dd{
+    margin-left: 32px;
+}
+.hot_two{
+    background-color:#80c269;
+    border-radius: 10px;
+    width: 170px;
+    padding: 0px;
+    margin-left: 40px;
+}
+.hot_two .third_dd{
+    margin-left: 32px;
+}
+.hot_three{
+    background-color: #00b7ee;
+    border-radius: 10px;
+    width: 170px;
+    padding: 0px;
+    margin-left: 40px;
+}
+.hot_four{
+    background-color: #eb6877;
+    border-radius: 10px;
+    width: 170px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.hot_four .third_dd{
+    margin-left: 30px;
+}
+.hot_five{
+    background-color: #bba44a;
+    border-radius: 10px;
+    width: 170px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.hot_six{
+    background-color: #005fee;
+    border-radius: 10px;
+    width: 170px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.hot_six .third_dd{
+    margin-left: 45px;
+}
+#hot_classify div{
+    float: left;
+    margin-left:25px;
+}
+/*-------------------------------------------*/
+#course_part{
+    background-color: white;
+}
+.div1 p{
+    line-height: 25px;
+}
+#hot_classify div{
+    height: 250px;
+}
+
+*{
+    font-family: "Arial", "微软雅黑";
+}

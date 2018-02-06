@@ -1,0 +1,16 @@
+#img_1{
+    width: 1420px;
+    height: 80px;
+    position: relative;
+}
+#JQ1{
+    position: absolute;
+    top: 12px;
+    right: 265px;
+}
+#erweima{
+    position: absolute;
+    top:-20px;
+    right: -100px;
+   display: none;
+}

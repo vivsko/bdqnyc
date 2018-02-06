@@ -1,0 +1,361 @@
+div{
+    border: 1px solid white;
+    width: 1420px;
+    margin: 0px auto;
+    font-family: 微软雅黑;
+}
+iframe{
+    width: 1470px;
+    margin-left: -8px;
+    border: 0px;
+}
+header div{
+    border: 0px;
+}
+section{
+    position: relative;
+    bottom: 350px;
+    z-index: -1;
+}
+footer iframe{
+    margin-top: -358px;
+    margin-left: -8px;
+}
+.s2{
+    height: 450px;
+}
+.s2 h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: "Arial", "微软雅黑";
+    color: #009aea;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+.s2 img{
+    margin-left: 130px;
+}
+.s3 li{
+    list-style-type: none;
+    width: 301px;
+    margin-left: 130px;
+    display: inline-block;
+    position: relative;
+    right: 45px;
+    margin-top: 20px;
+    vertical-align: top;
+    font-size: 16px;
+    color: #2c2b2b;
+}
+.s3 h3{
+    font-size: 28px;
+    color: #009aea;
+    font-weight: 500;
+}
+.s3{
+    height: 350px;
+}
+.s4{
+    font-family: 微软雅黑;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    height: 465px;
+    background-image: url("../images/high_shcool_15.png");
+}
+.s4 p{
+    font-size: 18px;
+
+}
+.s4 h3{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+.xcv{
+    background: white;
+    opacity: 0.8;
+    color: black;
+    display: block;
+    width: 800px;
+    margin: 0px auto;
+    padding: 30px;
+    border-radius: 15px;
+    font-weight: 700;
+    letter-spacing: 7px;
+}
+.vvv{
+    color: #ff0000;
+    font-size: 24px;
+}
+.xxx{
+    color: #11a3d3;
+    font-size: 30px;
+}
+.s5{
+    text-align: center;
+    height: 300px;
+}
+.s5 h2{
+    font-size: 50px;
+    font-family: 微软雅黑;
+    color: #11a3d3;
+    font-weight: 700;
+    margin-top: 120px;
+}
+.s6{
+    height: 950px;
+}
+.s6 h2{
+    font-size: 25px;
+    color: #11a3d3;
+}
+.s6 li:nth-of-type(1){
+    list-style-type: none;
+    width: 600px;
+    margin-left: 90px;
+    font-size: 18px;
+    line-height: 38px;
+}
+.s6 li:nth-of-type(1) h2{
+    margin-left: -50px;
+}
+.s6 li:nth-of-type(2) h2{
+    text-align: right;
+}
+.s6 img:nth-of-type(1){
+    float: left;
+    position: relative;
+    left: 800px;
+    bottom: 260px;
+}
+.s6 li:nth-of-type(2){
+    float: right;
+    list-style-type: none;
+    width: 600px;
+    font-size: 18px;
+    line-height: 38px;
+    position: relative;
+    right: 180px;
+    top: 80px;
+}
+.s6 img:nth-of-type(2){
+    position: relative;
+    right: 250px;
+    top: 50px;
+}
+.s6 li:nth-of-type(3){
+    float: left;
+    list-style-type: none;
+    width: 600px;
+    font-size: 18px;
+    margin-left: 265px;
+    line-height: 38px;
+    position: relative;
+    right: 180px;
+    top: 150px;
+}
+.s6 li:nth-of-type(3) h2{
+    margin-left: -50px;
+}
+.s6 img:nth-of-type(3){
+    position: relative;
+    top: 100px;
+}
+.s7{
+    background-image: url("../images/college_students_42.png");
+    height: 526px;
+}
+.s7 span{
+    text-align: center;
+    padding: 40px 20px 20px 0px;
+    display: inline-block;
+    border: 2px solid white;
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+    color: white;
+}
+.s7 p{
+    margin-left: 330px;
+    margin-top: -70px;
+    border: 2px solid white;
+    width: 600px;
+    transform: skew(-43deg);
+    padding-left: 10px;
+}
+.s7 p em{
+    font-weight: 700;
+    font-size: 28px;
+    display: inline-block;
+    transform: skew(51deg);
+}
+.s7 h1 strong{
+    font-size: 156px;
+    padding: 0px;
+    margin-left: 450px;
+    color: white;
+}
+.s7 h1{
+    font-size: 50px;
+    margin-top: 5px;
+    color: white;
+}
+.s8{
+    height: 950px;
+}
+.s8 ul li{
+    float: left;
+    list-style-type: none;
+    width: 600px;
+    margin: 20px;
+}
+.s8 ul li img{
+    float: left;
+}
+.s8 ul li p{
+    font-size: 14px;
+    margin-top: 20px;
+    text-indent: 2em;
+}
+.s8 h1{
+    font-size: 50px;
+    color: #11A3D4;
+    margin: 100px 0px 100px 350px;
+}
+.s8 input:nth-of-type(1){
+    margin-left: 410px;
+    margin-right: 100px;
+}
+.s8 input{
+    margin-top: 40px;
+}
+.s10{
+    height: 800px;
+    background: #77AEC2;
+    margin-top: -351px;
+}
+.s10 h4{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.s10 ul li{
+    list-style-type: none;
+    width: 240px;
+    height: 205px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 50px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: white;
+}
+.s10 ul li h1{
+    padding: 0px;
+    margin: 0px;
+    width: 150px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    position: relative;
+    bottom: 50px;
+    left: 90px;
+}
+.s10 ul li p{
+    position: relative;
+    bottom: 50px;
+    line-height: 25px;
+    margin: 20px -8px;
+}
+.s10 ul li span{
+    color: black;
+    display: inline-block;
+    background: white;
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 25px;
+    padding: 5px 9px 8px 9px;
+    border-radius: 7px;
+    font-size: 28px;
+    font-weight: 700;
+}
+.s10 ul li:nth-of-type(1){
+    background: #59465C;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.s10 ul li:nth-of-type(2){
+    background: #BD3E4F;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.s10 ul li:nth-of-type(3){
+    background: #D98733;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.s10 ul li:nth-of-type(4){
+    background: #9C72A2;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.s10 ul li:nth-of-type(5){
+    padding: 0px 40px 0px 0px;
+}
+.s10 ul li:nth-of-type(6){
+    background: #653366;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.s10 ul li:nth-of-type(1) span{
+    color: #59465C;
+}
+.s10 ul li:nth-of-type(2) span{
+    color: #BD3E4F;
+}
+.s10 ul li:nth-of-type(3) span{
+    color: #D98733;
+}
+.s10 ul li:nth-of-type(4) span{
+    color: #9C72A2;
+}
+.s10 ul li:nth-of-type(6) span{
+    color: #653366;
+}
+.s10 ul li:nth-of-type(1) h1{
+    color: #D98733;
+}
+.s10 ul li:nth-of-type(3) h1{
+    color: #59465C;
+}
+#teacher_team_word{
+    text-align: center;
+    position: relative;
+    bottom: 350px;
+    width: 1000px;
+    background-color: rgba(17,163,211,0.5);
+}
+#teacher_team_word p:first-child{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 88px;
+    font-family: "Arial", "微软雅黑";
+    color: #ffffff;
+    font-weight: 800;
+    padding-top: 20px;
+}
+#teacher_team_word p:first-child span{
+    color: #fedd01;
+}
+#teacher_team_word p:last-child{
+    margin-top: 5px;
+    font-size: 63px;
+    height: 100px;
+    font-family: 宋体;
+    color: #ffffff;
+}
+.s9 div{
+    border: 0px;
+}

@@ -1,0 +1,494 @@
+body{
+    width:100%;
+    /*border: 1px solid red;*/
+    margin: auto;
+    /*height: 8000px;*/
+}
+
+.ui{
+    width: 1420px;
+    /*border: 1px solid red;*/
+    margin: auto;
+    /*height: 8000px;*/
+}
+
+.ui1{
+    text-align: center;
+    /*border: solid blue;*/
+    margin-top: 80px;
+}
+
+.ui2{
+    margin-left: 155px;
+    margin-bottom: 100px;
+}
+.ui2 img{
+    margin-left: 80px;
+}
+
+.ui3 {
+    background-color: #79b5e9;
+    /*border: 1px solid red;*/
+    height:650px;
+    overflow: hidden;
+}
+
+#ui3_1{
+    text-align: center;
+    margin-top: 50px;
+
+}
+#ui3_1 p{
+    text-align: center;
+    margin-top: 10px;
+    font:26px"微软雅黑";
+    color: #266092;
+}
+#ui3_2{
+    margin-left: 85px;
+    /*border: solid blue;*/
+    width: 1220px;
+}
+#ui3_2 img{
+    margin-left: 38px;
+}
+
+.ui4{
+height: 920px;
+    width: 1300px;
+    /*border: solid blue;*/
+    margin: auto;
+    position: relative;
+}
+.ui4 img:nth-of-type(1){
+   left: 200px;
+    top: 20px;
+    width: 900px;
+    /*border: solid blue;*/
+    position: absolute;
+}
+.ui4 img:nth-of-type(2){
+    left: 200px;
+    width: 900px;
+    top: 60px;
+    /*border: solid blue;*/
+    position: absolute;
+}
+
+
+.ui4 img:nth-of-type(3){
+    position: absolute;
+    top: 160px;
+    left: 70px;
+}
+.ui4 img:nth-of-type(4){
+    position: absolute;
+    left: 620px;
+    top: 175px;
+
+}
+.ui4 img:nth-of-type(5){
+    position: absolute;
+    top: 530px;
+    left: 115px;
+}
+.ui4 img:nth-of-type(6){
+    position: absolute;
+    left: 650px;
+    top:560px;
+
+}
+
+
+.ui5{
+    text-align: center;
+   padding-top:40px;
+    margin-top: 50px;
+    overflow: hidden;
+    height: 383px;
+    background-image: url("../images/course_UI_58.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.ui6{
+    /*border:  solid red;*/
+    height: 650px;
+    /*width: 1200px;*/
+    /*margin: auto;*/
+}
+.ui6>p:nth-of-type(1){
+    font:35px"微软雅黑";
+    color: #525252;
+    text-align: center;
+    line-height: 0px;
+}
+.ui6>p:nth-of-type(2){
+    font: 25px"微软雅黑";
+    color: #525252;
+    text-align: center;
+    line-height: 20px;
+}
+.ui6 ul{
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.ui6 ul li{
+    list-style-type: none;
+    float: left;
+    width: 300px;
+    /*border: 1px solid red;*/
+    margin-left: 80px;
+}
+
+.ui6 ul li h5{
+    font:35px"微软雅黑";
+    color: #fd7d00;
+    margin: 0px;
+}
+.ui6 ul li p{
+    font:18px"微软雅黑";
+    color: #525252;
+    line-height: 30px;
+}
+
+
+.ui7{
+    background-image: url("../images/course_UI_70.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 500px;
+    overflow: hidden;
+    /*border:  solid blue;*/
+}
+.ui7 p:nth-of-type(1){
+    margin-top: 90px;
+    font:50px"微软雅黑";
+    color: #ffffff;
+    text-align: center;
+}
+.ui7 p{
+    font:27px"微软雅黑";
+    color: #ffffff;
+    text-align: center;
+}
+
+.ui8{
+    background-image: url("../images/course_UI_71.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 390px;
+    overflow: hidden;
+    /*border:  solid blue;*/
+}
+
+.ui8 p:nth-of-type(1){
+    margin-top: 115px;
+    font:50px"微软雅黑";
+    color: #2f2f2f;
+    text-align: center;
+}
+.ui8 p:nth-of-type(2){
+    margin-top: -30px;
+    font:34px"微软雅黑";
+    color: #2f2f2f;
+    text-align: center;
+}
+.ui8 p:nth-of-type(3){
+    margin-top: -10px;
+
+    text-align: center;
+}
+
+.ui9{
+    width: 1200px;
+    margin: auto;
+    /*border: solid red;*/
+    /*height: 600px;*/
+}
+.ui9 img{
+    margin-left: 10px;
+    /*border:1px solid blue;*/
+    margin-top: 15px;
+}
+
+.ui10{
+    background-color: #f3e8d6;
+    height: 350px;
+    /*border: solid red;*/
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.ui10 p:nth-of-type(1){
+   margin-top: 60px;
+    text-align: center;
+}
+.ui10 p:nth-of-type(2){
+    font:34px"微软雅黑";
+    color: #676767;
+    text-align: center;
+}
+.ui10 p:nth-of-type(3){
+    font:34px"微软雅黑";
+    color: #ff9a22;
+    text-align: center;
+}
+
+.ui11 p{
+    text-align: center;
+    font:40px"微软雅黑";
+    color: #404040;
+}
+.ui12{
+    /*border: 1px solid blue;*/
+    height: 940px;
+    width: 1200px;
+   position: relative;
+    margin: auto;
+}
+
+#ui12_1{
+    /*border:  solid red;*/
+  width: 550px;
+    height: 370px;
+
+}
+#ui12{
+    /*border:  solid red;*/
+    width: 550px;
+    position: absolute;
+    top: 30px;
+    left:685px;
+}
+
+#ui12 h3{
+    border-bottom:1px solid #ff9b23;
+    width: 300px;
+    /*line-height: 40px;*/
+    padding-bottom: 30px;
+    font:28px"微软雅黑";
+    color: #404040;
+}
+
+#ui12 p{
+    font:20px"微软雅黑";
+    color: #404040;
+}
+#ui12 span{
+    font:24px"微软雅黑";
+    color: #FF0000;
+}
+
+.ui12_2{
+    width: 1200px;
+    border-top:1px solid #b7b7b7;
+}
+#ui12_2{
+    /*border:  solid red;*/
+    width: 550px;
+    position: absolute;
+    top: 500px;
+    left: 80px;
+}
+
+#ui12_2 h3{
+    border-bottom:1px solid #ff9b23;
+    width: 300px;
+    /*line-height: 40px;*/
+    padding-bottom: 30px;
+    font:28px"微软雅黑";
+    color: #404040;
+}
+
+#ui12_2 p{
+    font:20px"微软雅黑";
+    color: #404040;
+
+}
+#ui12_2 span{
+    font:24px"微软雅黑";
+    color: #FF0000;
+}
+
+#ui12_3{
+    /*border:  solid red;*/
+    width: 550px;
+    height: 370px;
+    position: absolute;
+    top:470px;
+    left: 720px;
+}
+
+
+.ui13{
+    background-color: #4abd92;
+    /*border: 1px solid red;*/
+    padding-top: 50px;
+    height:600px;
+
+}
+
+
+.ui13>p{
+    text-align: center;
+    font:28px"微软雅黑";
+    color: #ffffff;
+}
+.ui13 ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 55px;
+    font:18px"微软雅黑";
+    color: #404040;
+    text-align: center;
+}
+
+.ui13 ul{
+    margin: auto;
+    /*border: 1px solid red;*/
+    width: 1200px;
+
+}
+
+.ui14{
+    margin-top: 100px;
+}
+.ui14 p:nth-of-type(1){
+    font:46px"微软雅黑";
+    color:#262626 ;
+    text-align: center;
+    line-height: 0px;
+}
+.ui14 p:nth-of-type(2){
+    font:28px"微软雅黑";
+    color:#ffc82c ;
+    text-align: center;
+    line-height: 20px;
+}
+.ui14 p{
+    font:24px"微软雅黑";
+    color:#585858 ;
+    text-align: center;
+}
+
+
+/*header*/
+
+header{
+    position: relative;
+    /*border: 1px solid red;*/
+    height: 150px;
+    padding-left: 0px;
+}
+iframe{
+    margin: 0px;
+    padding: 0px;
+}
+#logo_right ul{
+    position: relative;
+}
+#hot_course{
+    width: 100px;
+    right: 580px;
+    top:160px;
+    display: none;
+    background-color: white;
+    position: absolute;
+    border: 1px gray dashed;
+    border-radius: 5px;
+}
+#hot_course ul{
+    margin-left: -90px;
+}
+#hot_course ul li{
+    width:100px;
+    text-align: center;
+    margin-top:10px;
+    border-bottom: 1px gray solid;
+}
+#zhaosheng{
+    width: 90px;
+    right: 245px;
+    top:160px;
+    display: none;
+    background-color: white;
+    border: 1px gray dashed;
+    border-radius: 5px;
+    position: absolute;
+}
+#zhaosheng ul{
+    margin-left: -85px;
+}
+
+#zhaosheng ul li{
+    width: 80px;
+    margin-top: 10px;
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px gray solid;
+}
+#job_serice{
+    width: 80px;
+    right: 475px;
+    top:160px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px gray dashed;
+    border-radius: 5px;
+
+}
+#job_serice ul{
+    margin-left: -80px;
+}
+#job_serice ul li{
+    margin-top: 10px;
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px gray solid;
+}
+/*#shouye:first-of-type{*/
+    /*color: #ff4900;*/
+/*}*/
+
+#logo_right{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+#img_2 img{
+    float: left;
+    margin:-20px 90px;
+    margin-right: 20px;
+}
+#logo_right li{
+    float: left;
+    list-style: none;
+    margin-left: 50px;
+    font-family: "Arial", "微软雅黑";
+    font-size: 16px;
+    color: #000000;
+}
+
+header a{
+    text-decoration: none;
+    color:black;
+}
+iframe{
+    width: 1470px;
+    margin-left: -8px;
+    border: 0px;
+}
+header div{
+    border: 0px;
+}
+footer iframe{
+    margin-top: -10px;
+    margin-left: -8px;
+}
+html{
+    overflow-x: hidden;
+}
+
+footer{
+
+}

@@ -1,0 +1,131 @@
+body{
+    width: 1420px;
+    height: 1000px;
+    margin: 0px auto;
+    font-family: "Arial", "微软雅黑";
+}
+.wz1{
+
+    font-weight: bold;
+    font-size:66px;
+    text-align: center;
+}
+.wz2{
+
+    font-size: 23px;
+    text-align: center;
+}
+.wz3{
+
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 66px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#qq{
+    margin-top:-70px;
+}
+.wz4{
+
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    border: dashed 2px #fbe601;
+    border-radius: 15px;
+    width: 900px;
+    margin-left:200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#dd{
+    background-image: url("../images/Male_05.png");
+    padding-bottom: 40px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 50px 100px 50px 100px;
+
+}
+
+ul li p{
+
+    font-size: 24px;
+    color: #fbe601;
+    text-align: center;
+    margin-top: 0px;
+
+}
+#dj p{
+   color: #ffffff;
+
+    font-size: 40px;
+    border: solid 2px #90998A;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+    margin-left: 480px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#dj p a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#IT{
+    background-image: url("../images/Male_08.png");
+    height: 461px;
+}
+#IT span{
+
+    color:#ffffff;
+    font-size: 66px;
+    position: relative;
+    top: 350px;
+    left: 600px;
+}
+dl li{
+    margin-top: 0px;
+    list-style: none;
+    display: inline-block;
+
+}
+dl .ss{
+    margin-right:30px;
+    margin-left: 30px;
+    padding-left: 3px;
+    padding-right:2px;
+}
+#ds dl{
+    margin-top: 0px;
+}
+.wz5{
+
+    font-size: 48px;
+    text-align: center;
+    ;
+}
+#zz{
+    margin-left: 500px;
+    margin-top: 80px;
+}
+
+section{
+    position: relative;
+    bottom: 350px;
+    z-index: -1;
+}
+footer{
+    position: relative;
+    bottom: 300px;
+}
+iframe{
+    width: 1470px;
+    margin-left: -8px;
+    border: 0px;
+}

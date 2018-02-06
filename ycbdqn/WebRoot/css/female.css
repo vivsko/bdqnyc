@@ -1,0 +1,164 @@
+body{
+    width: 1420px;
+    height: 1000px;
+    margin: 0px auto;
+    font-family: "Arial", "微软雅黑";
+}
+html{overflow-x: hidden}
+#tu1{
+    margin-top: 100px;
+    margin-left:400px;
+
+}
+.tu1-tu{
+    margin-left: 70px;
+    margin-bottom:5px;
+}
+#tu2,#tu3,#tu4,#tu5,#tu6,#tu7,#tu8,#tu9,#tu10,#tu11,#tu12,#tu13{
+    display: inline-block;
+    padding: 50px;
+}
+#tu2,#tu4,#tu5,#tu7,#tu8,#tu10,#tu11,#tu13 p{
+    font-size:16px;
+    line-height:25px;
+    color: #858686;
+}
+
+#xx1,#xx3,#xx5,#xx7 {
+    background-image: url("../images/Female_27.png");
+    width: 130px;
+    height:23px;
+margin-top: -40px;
+    margin-left: 100px;
+}
+#xx2,#xx4,#xx6,#xx8 {
+    background-image: url("../images/Female_27.png");
+    width: 55px;
+    height:23px;
+    margin-top: -40px;
+    margin-left: 100px;
+}
+.kk{
+    margin-left: 100px;
+}
+#zong1,#zong2,#zong3,#zong4{
+    border-bottom: solid 1px #CA0D4B;
+}
+.tu2-tu{
+    margin-top:200px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.zt1{
+    background-image: url("../images/Female_55.png");
+    width: 1320px;
+    margin-left: 100px;
+    height: 400px;
+
+
+}
+.wz1 p{
+    border: solid 1px  white;
+    margin-left:200px;
+    margin-top: -300px;
+    padding: 50px;
+    background-color: #CA0D4B;
+    font-size: 18px;
+
+    color: #ffffff;
+    line-height: 30px;
+    opacity: 0.5;
+}
+.wz1 p span{
+    font-size: 36px;
+    display: block;
+    margin-bottom:1px;
+}
+.zt2{
+    background-image: url("../images/Female_58.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+    right: -720px;
+    bottom: -55px;
+    z-index:-1;
+}
+.wz2 p{
+
+    color: #575556;
+    font-size: 18px;
+    margin-left:250px;
+    margin-top: -200px;
+    line-height:25px;
+}
+.wz2 p span{
+    font-size: 36px;
+    display: block;
+    margin-bottom: 5px;
+}
+.zt3{
+    background-image: url("../images/Female_61.png");
+    height: 450px;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.wz3 p{
+
+    color: #575556;
+    font-size: 18px;
+    margin-left:750px;
+    margin-top: -300px;
+    line-height:25px;
+}
+.wz3 p span{
+    font-size: 36px;
+    display: block;
+    margin-bottom: 5px;
+}
+.zt4{
+    background-image: url("../images/Female_65.png");
+    height:550px;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+.wz4 p{
+
+    color: #ffffff;
+    font-size: 18px;
+    margin-left:250px;
+    margin-top: -400px;
+    line-height:30px;
+}
+#wb{
+    margin-left: 40px;
+    margin-top: 150px;
+    padding:50px;
+}
+.wb-1{
+    margin-left:400px;
+    margin-bottom: 100px;
+}
+.wb-2{
+    margin-left:150px;
+    margin-bottom: 100px;
+}
+.wb-3{
+    margin-left:400px;
+    margin-top: 100px;
+}
+section{
+    position: relative;
+    bottom: 350px;
+    z-index: -1;
+}
+footer{
+    position: relative;
+    bottom: 350px;
+}
+iframe{
+    width: 1470px;
+    margin-left: -8px;
+    border: 0px;
+}

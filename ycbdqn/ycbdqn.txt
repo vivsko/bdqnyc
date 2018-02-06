@@ -1,0 +1,169 @@
+/*
+SQLyog 企业版 - MySQL GUI v8.14 
+MySQL - 5.5.27 : Database - bdqnyc
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`bdqnyc` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci */;
+
+USE `bdqnyc`;
+
+/*Table structure for table `tbl_campusinformation` */
+
+DROP TABLE IF EXISTS `tbl_campusinformation`;
+
+CREATE TABLE `tbl_campusinformation` (
+  `uuid` bigint(20) NOT NULL AUTO_INCREMENT,
+  `title` varchar(100) NOT NULL,
+  `profile` varchar(255) NOT NULL,
+  `content` text NOT NULL,
+  `picPath` varchar(255) NOT NULL,
+  `createTime` bigint(20) NOT NULL,
+  PRIMARY KEY (`uuid`)
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_campusinformation` */
+
+insert  into `tbl_campusinformation`(`uuid`,`title`,`profile`,`content`,`picPath`,`createTime`) values (16,'北大青鸟','北大青鸟','啊睡觉嗲是鸡婆大上坡多久啊四排多久啊是','/upload/images/b7213e9c69610810c669309b41a04f8d(1).png',1517621864046),(17,'北大青鸟','北大青鸟','啊睡觉嗲是鸡婆大上坡多久啊四排多久啊是','/upload/images/b7213e9c69610810c669309b41a04f8d.png',1517621894752),(18,'北大青鸟','大三大四','啊睡觉嗲是鸡婆大上坡多久啊四排多久啊是','/upload/images/b7213e9c69610810c669309b41a04f8d(1).png',1517621914512),(19,'故事发生','倒萨','啊睡觉嗲是鸡婆大上坡多久啊四排多久啊是','/upload/images/b7213e9c69610810c669309b41a04f8d(1).png',1517621933677),(20,'故事发生','啊打算','啊睡觉嗲是鸡婆大上坡多久啊四排多久啊是','/upload/images/b7213e9c69610810c669309b41a04f8d(1).png',1517621952642),(21,'北大青鸟','啊打算','啊睡觉嗲是鸡婆大上坡多久啊四排多久啊是','/upload/images/b7213e9c69610810c669309b41a04f8d.png',1517621967988),(22,'广泛大概','倒萨','啊睡觉嗲是鸡婆大上坡多久啊四排多久啊是','/upload/images/b7213e9c69610810c669309b41a04f8d(1).png',1517621981835),(23,'北大青鸟','倒萨','啊睡觉嗲是鸡婆大上坡多久啊四排多久啊是','/upload/images/b7213e9c69610810c669309b41a04f8d(1).png',1517621994279),(24,'北大青鸟','啊打算','啊睡觉嗲是鸡婆大上坡多久啊四排多久啊是','/upload/images/b7213e9c69610810c669309b41a04f8d(1).png',1517622006689),(25,'北大青鸟','啊打算','啊睡觉嗲是鸡婆大上坡多久啊四排多久啊是','/upload/images/b7213e9c69610810c669309b41a04f8d(1).png',1517622017603),(26,'广告歌','高一飞','<p>\r\n	</p>\r\n<p>\r\n	&nbsp;</p>\r\n<p>\r\n	大三大四就来到拉萨肯德基了卡死了</p>\r\n','/upload/images/b7213e9c69610810c669309b41a04f8d(1).png',1517623126178),(27,'萨达','asda是','','',1517628530801),(28,'大苏打d\'d','点点滴滴','','',1517630086782),(29,'阿斯顿发射点','似的发射点','','',1517630092811),(30,' 发射点f\'s\'f','方式方法地方都是大','','',1517630099526),(31,'412412','124124','','',1517630105896),(32,'撒旦发送','发射点发射点','','',1517630113200),(33,'士大夫撒旦','撒范德萨地方','','',1517630118893),(34,'法撒旦飞洒的','啊飞洒地方','','',1517630125401),(36,'dasd','sadas','<p>\r\n	dasas</p>\r\n','/upload/images/123.png',1517648999059);
+
+/*Table structure for table `tbl_customer_card` */
+
+DROP TABLE IF EXISTS `tbl_customer_card`;
+
+CREATE TABLE `tbl_customer_card` (
+  `uuid` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `tele` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `qq` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `createTime` bigint(20) NOT NULL,
+  PRIMARY KEY (`uuid`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `tbl_customer_card` */
+
+insert  into `tbl_customer_card`(`uuid`,`name`,`tele`,`qq`,`email`,`createTime`) values (1,'小白','12345678987','494544304','494544304@qq.com',0),(3,'真真','152619819117','494544304','494544304@qq.com',0),(7,'源源','12345673256','456789321','987654321@qq.com',0),(9,'浩浩','15261981917','494544304','494544304@qq.com',0),(10,'新新','15261981917','494544304','494544304@qq.com',0),(11,'正正','15261981917','494544304','494544304@qq.com',0),(12,'小黑','15261981917','494544304','494544304@qq.com',1517449268124);
+
+/*Table structure for table `tbl_emp` */
+
+DROP TABLE IF EXISTS `tbl_emp`;
+
+CREATE TABLE `tbl_emp` (
+  `uuid` bigint(20) NOT NULL AUTO_INCREMENT,
+  `userName` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  `pwd` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `name` varchar(28) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `tele` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `address` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `gender` int(1) NOT NULL COMMENT '1-男；0-女',
+  `birthday` bigint(20) NOT NULL,
+  `depUuid` bigint(20) NOT NULL,
+  `lastLoginTime` bigint(20) NOT NULL,
+  `lastLoginIp` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `loginTimes` int(11) NOT NULL,
+  PRIMARY KEY (`uuid`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `tbl_emp` */
+
+insert  into `tbl_emp`(`uuid`,`userName`,`pwd`,`name`,`email`,`tele`,`address`,`gender`,`birthday`,`depUuid`,`lastLoginTime`,`lastLoginIp`,`loginTimes`) values (1,'admin','123456','管理员','494544304@qq.com','15261981917','江苏省南通市',1,1234567899,12,1234574512,'12354234235',511245142);
+
+/*Table structure for table `tbl_empstar` */
+
+DROP TABLE IF EXISTS `tbl_empstar`;
+
+CREATE TABLE `tbl_empstar` (
+  `uuid` bigint(20) NOT NULL AUTO_INCREMENT,
+  `title` varchar(100) NOT NULL,
+  `profile` varchar(255) NOT NULL,
+  `content` varchar(255) NOT NULL,
+  `picPath` varchar(255) NOT NULL,
+  `createTime` bigint(20) NOT NULL,
+  PRIMARY KEY (`uuid`)
+) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_empstar` */
+
+insert  into `tbl_empstar`(`uuid`,`title`,`profile`,`content`,`picPath`,`createTime`) values (35,'就业明星','阿顺帆','<p>\r\n	</p>\r\n<p>\r\n	&nbsp;</p>\r\n<div>\r\n	&nbsp;姓&nbsp;&nbsp;&nbsp;名：张晓东<br />\r\n	学&nbsp;&nbsp;&nbsp;&nbsp;历：本科&nbsp;<br />\r\n	就业单位：广州天维信息技术股份有限公司<br />\r\n	就业岗位：java软件工程师<br />\r\n	薪资及福利:5000+五险+1金+双休</div>\r\n','/upload/images/index_30.png',1517623226707),(36,'就业明星','萨芬','<p>\r\n	</p>\r\n<p>\r\n	&nbsp;</p>\r\n<div>\r\n	&nbsp;姓&nbsp;&nbsp;&nbsp;名：张晓东<br />\r\n	学&nbsp;&nbsp;&nbsp;&nbsp;历：本科&nbsp;<br />\r\n	就业单位：广州天维信息技术股份有限公司<br />\r\n	就业岗位：java软件工程师<br />\r\n	薪资及福利:5000+五险+1金+双休</div>\r\n','/upload/images/index_30.png',1517623244190),(37,'就业明星','阿顺帆','<p>\r\n	</p>\r\n<p>\r\n	&nbsp;</p>\r\n<div>\r\n	&nbsp;姓&nbsp;&nbsp;&nbsp;名：张晓东<br />\r\n	学&nbsp;&nbsp;&nbsp;&nbsp;历：本科&nbsp;<br />\r\n	就业单位：广州天维信息技术股份有限公司<br />\r\n	就业岗位：java软件工程师<br />\r\n	薪资及福利:5000+五险+1金+双休</div>\r\n','/upload/images/index_30.png',1517623256907),(38,'就业明星','阿顺帆','<p>\r\n	</p>\r\n<p>\r\n	&nbsp;</p>\r\n<div>\r\n	&nbsp;姓&nbsp;&nbsp;&nbsp;名：张晓东<br />\r\n	学&nbsp;&nbsp;&nbsp;&nbsp;历：本科&nbsp;<br />\r\n	就业单位：广州天维信息技术股份有限公司<br />\r\n	就业岗位：java软件工程师<br />\r\n	薪资及福利:5000+五险+1金+双休</div>\r\n','/upload/images/index_30.png',1517623268829),(39,'就业明星','阿顺帆','<p>\r\n	</p>\r\n<p>\r\n	&nbsp;</p>\r\n<div>\r\n	&nbsp;姓&nbsp;&nbsp;&nbsp;名：张晓东<br />\r\n	学&nbsp;&nbsp;&nbsp;&nbsp;历：本科&nbsp;<br />\r\n	就业单位：广州天维信息技术股份有限公司<br />\r\n	就业岗位：java软件工程师<br />\r\n	薪资及福利:5000+五险+1金+双休</div>\r\n','/upload/images/index_30.png',1517623281621),(40,'就业明星','午饭晚饭','<p>\r\n	</p>\r\n<p>\r\n	&nbsp;</p>\r\n<div>\r\n	&nbsp;姓&nbsp;&nbsp;&nbsp;名：张晓东<br />\r\n	学&nbsp;&nbsp;&nbsp;&nbsp;历：本科&nbsp;<br />\r\n	就业单位：广州天维信息技术股份有限公司<br />\r\n	就业岗位：java软件工程师<br />\r\n	薪资及福利:5000+五险+1金+双休</div>\r\n','/upload/images/index_30.png',1517623293933),(41,'asv','asf ','<p>\r\n	</p>\r\n<p>\r\n	&nbsp;</p>\r\n<div>\r\n	姓&nbsp; &nbsp;名：张晓东</div>\r\n<div>\r\n	学&nbsp; &nbsp; 历：本科&nbsp;</div>\r\n<div>\r\n	就业单位：广州天维信息技术股份有限公司</div>\r\n<div>\r\n	就业岗位：java软件工程师</div>\r\n<div>\r\n	薪资及福利:5000+五险+1金+双休</div>\r\n<div>\r\n	&nbsp;</div>\r\n','/upload/images/index_30.png',1517630144786),(42,'asFg','qegwegqeg','<p>\r\n	</p>\r\n<p>\r\n	&nbsp;</p>\r\n<div>\r\n	姓&nbsp; &nbsp;名：张晓东</div>\r\n<div>\r\n	学&nbsp; &nbsp; 历：本科&nbsp;</div>\r\n<div>\r\n	就业单位：广州天维信息技术股份有限公司</div>\r\n<div>\r\n	就业岗位：java软件工程师</div>\r\n<div>\r\n	薪资及福利:5000+五险+1金+双休</div>\r\n<div>\r\n	&nbsp;</div>\r\n','/upload/images/index_30.png',1517630156634);
+
+/*Table structure for table `tbl_enterprise_recruitment` */
+
+DROP TABLE IF EXISTS `tbl_enterprise_recruitment`;
+
+CREATE TABLE `tbl_enterprise_recruitment` (
+  `id` int(5) NOT NULL AUTO_INCREMENT,
+  `title` varchar(50) DEFAULT NULL COMMENT '企业名称',
+  `content` varchar(5000) DEFAULT NULL COMMENT '企业正文',
+  `time` bigint(50) DEFAULT NULL COMMENT '时间日期',
+  `source` varchar(50) DEFAULT NULL COMMENT '来源',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_enterprise_recruitment` */
+
+insert  into `tbl_enterprise_recruitment`(`id`,`title`,`content`,`time`,`source`) values (1,'东方国信','为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,',2017,'来源：盐城北大青鸟'),(2,'国信优易数据有限公司','为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,',2017,'来源：盐城北大青鸟'),(3,'阿里巴巴','为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,',2017,'来源：盐城北大青鸟'),(4,'阿里巴巴','为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,',2017,'来源：盐城北大青鸟'),(5,'国信优易数据有限公司','为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,',2017,'来源：盐城北大青鸟'),(6,'东方国信','为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,',2017,'来源：盐城北大青鸟'),(7,'东方国信','为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,',2017,'来源：盐城北大青鸟'),(8,'国信优易数据有限公司','为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,',2017,'来源：盐城北大青鸟'),(9,'阿里巴巴','为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,',2017,'来源：盐城北大青鸟'),(10,'国信优易数据有限公司','为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,',2017,'来源：盐城北大青鸟'),(11,'国信优易数据有限公司','为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,',2017,'来源：盐城北大青鸟'),(12,'东方国信','为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,',2017,'来源：盐城北大青鸟');
+
+/*Table structure for table `tbl_schoolenv` */
+
+DROP TABLE IF EXISTS `tbl_schoolenv`;
+
+CREATE TABLE `tbl_schoolenv` (
+  `uuid` bigint(20) NOT NULL AUTO_INCREMENT,
+  `picPath` varchar(255) NOT NULL,
+  `createTime` bigint(20) NOT NULL,
+  PRIMARY KEY (`uuid`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_schoolenv` */
+
+insert  into `tbl_schoolenv`(`uuid`,`picPath`,`createTime`) values (2,'images/trends_images/index_40.png',1517369238846),(3,'images/trends_images/index_40.png',1517369238846),(4,'images/trends_images/index_40.png',1517369238846),(6,'images/trends_images/index_40.png',1517369238846),(7,'images/trends_images/index_40.png',1517369238846),(11,'images/trends_images/index_40.png',1517369238846),(12,'images/trends_images/index_38.png',1517369284767),(13,'images/trends_images/index_36.png',1517541211003),(14,'\\statics\\uploadfiles\\71805.jpg',1517650887297);
+
+/*Table structure for table `tbl_schoollife` */
+
+DROP TABLE IF EXISTS `tbl_schoollife`;
+
+CREATE TABLE `tbl_schoollife` (
+  `uuid` bigint(20) NOT NULL AUTO_INCREMENT,
+  `title` varchar(100) NOT NULL,
+  `profile` varchar(255) NOT NULL,
+  `content` text NOT NULL,
+  `picPath` varchar(255) NOT NULL,
+  `createTime` bigint(20) NOT NULL,
+  PRIMARY KEY (`uuid`)
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_schoollife` */
+
+insert  into `tbl_schoollife`(`uuid`,`title`,`profile`,`content`,`picPath`,`createTime`) values (1,'hh','hh','hh','images/trends_images/index_58.png',1517295675307),(2,'ii','ii','ii','images/trends_images/index_56.png',1517295675307),(3,'jj','jj','jj','images/trends_images/index_54.png',1517295675307),(4,'kk','kk','kk','images/trends_images/index_49.png',1517295675307),(5,'ll','ll','ll','images/trends_images/index_47.png',1517295675307),(6,'mm','mm','mm','images/trends_images/index_45.png',1517295675307),(7,'nn','nn','nn','images/trends_images/index_54.png',1517295675307),(20,'ft','jgyj','<p>\r\n	<img alt=\"\" src=\"/upload/images/123.png\" style=\"width: 150px; height: 150px;\" /></p>\r\n<p>\r\n	hvhg</p>\r\n','/upload/images/123.png',1517643146871);
+
+/*Table structure for table `tbl_teacher` */
+
+DROP TABLE IF EXISTS `tbl_teacher`;
+
+CREATE TABLE `tbl_teacher` (
+  `uuid` bigint(20) NOT NULL AUTO_INCREMENT,
+  `title` varchar(100) NOT NULL,
+  `profile` varchar(255) NOT NULL,
+  `content` text NOT NULL,
+  `picPath` varchar(255) NOT NULL,
+  `createTime` bigint(20) NOT NULL,
+  PRIMARY KEY (`uuid`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+
+/*Data for the table `tbl_teacher` */
+
+insert  into `tbl_teacher`(`uuid`,`title`,`profile`,`content`,`picPath`,`createTime`) values (1,'北大青鸟盐城思腾Java21班 PPT演讲','Java21班','<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛, 跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517623162728),(2,'北大青鸟盐城思腾Java21班 PPT演讲	','Java21班 ','\r\n<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517623203891),(3,'北大青鸟盐城思腾Java21班 PPT演讲','Java21班','<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,</div>\r\n<div>\r\n	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517623418595),(4,'北大青鸟盐城思腾Java21班 PPT演讲','Java21班','<p>\r\n	</p>\r\n<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,</div>\r\n<div>\r\n	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517623472925),(5,'北大青鸟盐城思腾Java21班 PPT演讲','Java21班','<p>\r\n	</p>\r\n<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,</div>\r\n<div>\r\n	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517623496931),(6,'北大青鸟盐城思腾Java21班 PPT演讲','Java21班','<p>\r\n	</p>\r\n<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,</div>\r\n<div>\r\n	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517623513485),(7,'北大青鸟盐城思腾Java21班 PPT演讲','Java21班','<p>\r\n	</p>\r\n<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,</div>\r\n<div>\r\n	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517623528334),(8,'北大青鸟盐城思腾Java21班 PPT演讲','Java21班','<p>\r\n	</p>\r\n<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,</div>\r\n<div>\r\n	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517623542519),(9,'北大青鸟盐城思腾Java21班 PPT演讲','Java21班','<p>\r\n	</p>\r\n<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,</div>\r\n<div>\r\n	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517623554798),(10,'北大青鸟盐城思腾Java21班 PPT演讲','Java21班','<p>\r\n	</p>\r\n<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,</div>\r\n<div>\r\n	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517623565456),(11,'北大青鸟盐城思腾Java21班 PPT演讲','Java21班','<p>\r\n	</p>\r\n<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,</div>\r\n<div>\r\n	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517623576187),(12,'北大青鸟盐城思腾Java21班 PPT演讲','Java21班','<p>\r\n	</p>\r\n<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,</div>\r\n<div>\r\n	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517623586966),(13,'北大青鸟盐城思腾Java21班 PPT演讲','Java21班','\r\n<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛,跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n','/upload/images/123.png',1517624317789),(14,'北大青鸟盐城思腾','Java21班','<p>\r\n	</p>\r\n<div>\r\n	为了树立学习信心，提高学习兴趣培养学员的综合素养，成为一个合格的准职业人Java21班举办了第一次PPT演讲大赛, 跟随小编一起看看可爱学员的精彩表现吧！</div>\r\n<div>\r\n	&nbsp;</div>\r\n','/upload/images/123.png',1517640062429);
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
